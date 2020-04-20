@@ -2,5 +2,6 @@ version: '2'
 services:
   distcc:
     network_mode: host
+    image: registry.gitlab.com/ssaavedra.eu/distcc-arm:latest
     build: .
 
